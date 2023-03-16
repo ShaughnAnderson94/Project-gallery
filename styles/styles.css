@@ -19,7 +19,7 @@ img{
 
     
 }
-.box {height: 400px;
+.box {height: 450px;
 flex-basis: 190px;
 flex-grow: 1;
 
@@ -47,4 +47,13 @@ flex-grow: 1;
     background: orangered;
     
    
+}
+
+@media screen and (max-width: 600px) {
+
+   
+    .flex-container{
+       
+      flex-direction: column;  
+    }
 }
