@@ -8,16 +8,16 @@ let description2 ="this was my first project where I shared information about my
 
 let movieButton = document.querySelector("#button3");
 const myDescription3 = document.querySelector("#description3");
-let description3 ="this project is under construction";
+let description3 ="In this project I created a film database that users could search and add to. It helped a lot with developing Java skills";
 
 let webButton = document.querySelector("#button4");
 const myDescription4 = document.querySelector("#description4");
-let description4 ="this project is under construction";
+let description4 ="In the application website I combined previous knowledge to make a site that can direct to all my other projects";
 
 
 let gameButton = document.querySelector("#button5");
 const myDescription5 = document.querySelector("#description5");
-let description5 ="this project is under construction";
+let description5 ="In my game is used the sum of my Javascript knowledge to make a functioning game of tic tac toe.";
 
 
 introButton.onclick = () => {
@@ -76,3 +76,4 @@ myDescription5.innerHTML = description5;
 gameButton.innerHTML ="hide details";
     }
 }
+
